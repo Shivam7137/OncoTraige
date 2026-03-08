@@ -9,7 +9,7 @@ from sklearn.metrics import confusion_matrix
 import streamlit as st
 
 # --- Page Configuration ---
-st.set_page_config(page_title="OncoTriage AI", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="OncoSmart AI", layout="wide", initial_sidebar_state="collapsed")
 
 # --- CSS Injection from User's HTML ---
 st.markdown("""
@@ -38,7 +38,7 @@ st.markdown("""
   .stApp { background: var(--bg); color: var(--text); font-family: var(--sans); }
   .block-container {
     max-width: 96% !important; /* Bento Full screen */
-    padding-top: 2rem !important;
+    padding-top: 4rem !important;
     padding-bottom: 2rem !important;
   }
   .stSelectbox label { display: none; }
