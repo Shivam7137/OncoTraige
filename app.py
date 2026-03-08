@@ -251,9 +251,9 @@ tn, fp, fn, tp = confusion_matrix(y_test, y_pred_all).ravel()
 header_placeholder.markdown(f"""
 <div class="header">
   <div class="brand">
-    <div class="brand-icon">OT</div>
+    <div class="brand-icon">OS</div>
     <div>
-      <div class="brand-name">OncoTriage AI</div>
+      <div class="brand-name">OncoSmart AI</div>
       <div class="brand-sub">Breast Cancer Diagnostic Triage System</div>
     </div>
   </div>
