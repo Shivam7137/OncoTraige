@@ -1,7 +1,7 @@
 patient_idx,probability,reliability,tier,margin,spread,leaf,y_true,y_pred,recommendation
 0,0.0245,0.9226,High,0.9511,0.829,0.992,0,0,High reliability. Proceed with standard care plan.
 1,0.983,0.9218,High,0.966,0.7986,0.996,1,1,High reliability. Proceed with standard care plan.
-2,0.21,0.6815,Moderate,0.58,0.8371,0.702,0,0,"Moderate reliability. Review: texture_worst, area_se, concavity_mean. Consider re-measurement."
+2,0.21,0.6815,Moderate,0.58,0.8371,0.702,0,1,"Moderate reliability. Review: texture_worst, area_se, concavity_mean. Consider re-measurement."
 3,0.8955,0.7905,Moderate,0.7909,0.79,0.79,1,1,"Moderate reliability. Review: concave_points_worst, concave_points_mean, area_worst. Consider re-measurement."
 4,0.0416,0.8965,High,0.9168,0.835,0.938,0,0,High reliability. Proceed with standard care plan.
 5,0.0429,0.8679,High,0.9141,0.7694,0.9,0,0,High reliability. Proceed with standard care plan.
@@ -15,7 +15,7 @@ patient_idx,probability,reliability,tier,margin,spread,leaf,y_true,y_pred,recomm
 13,0.0236,0.9018,High,0.9528,0.754,0.996,0,0,High reliability. Proceed with standard care plan.
 14,0.0257,0.9065,High,0.9486,0.7846,0.984,0,0,High reliability. Proceed with standard care plan.
 15,0.026,0.9091,High,0.9481,0.7929,0.986,0,0,High reliability. Proceed with standard care plan.
-16,0.2379,0.6544,Moderate,0.5242,0.849,0.688,1,0,"Moderate reliability. Review: texture_worst, concavity_mean, texture_mean. Consider re-measurement."
+16,0.2379,0.6544,Moderate,0.5242,0.849,0.688,1,1,"Moderate reliability. Review: texture_worst, concavity_mean, texture_mean. Consider re-measurement."
 17,0.0235,0.9279,High,0.9531,0.8392,0.998,0,0,High reliability. Proceed with standard care plan.
 18,0.0904,0.8046,High,0.8191,0.7621,0.832,0,0,High reliability. Proceed with standard care plan.
 19,0.0246,0.9231,High,0.9509,0.8321,0.99,0,0,High reliability. Proceed with standard care plan.

@@ -122,7 +122,7 @@ for d in [ARTIFACT_DIR, INTER_DIR, PLOT_DIR, METRIC_DIR]:
 # Model settings (confirmed by rebuild ablation)
 RANDOM_STATE  = 42
 TEST_SIZE     = 0.20
-THRESHOLD     = 0.25            # from r2
+THRESHOLD     = 0.20            # user updated from 0.25
 CLASS_WEIGHT  = {0: 1, 1: 4}   # from r3
 N_ESTIMATORS  = 500
 MAX_FEATURES  = 'sqrt'

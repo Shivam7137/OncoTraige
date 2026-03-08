@@ -1,7 +1,7 @@
 """
 p3_01_rf_final.py — Final RF Model (Rebuild Merge)
 ====================================================
-Trains RF with class_weight={0:1,1:4}, threshold=0.25,
+Trains RF with class_weight={0:1,1:4}, threshold=0.20,
 runs 5-fold CV, applies Platt scaling, saves all artifacts.
 """
 

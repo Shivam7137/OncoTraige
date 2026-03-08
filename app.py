@@ -239,7 +239,7 @@ with layout_col3:
             'Decision Threshold',
             min_value = 0.10,
             max_value = 0.60,
-            value     = 0.25,
+            value     = 0.20,
             step      = 0.05,
             label_visibility="collapsed"
         )
