@@ -1,0 +1,18 @@
+{
+  "label": "stage6_reliability",
+  "n_test_patients": 114,
+  "mean_reliability": 0.8563,
+  "tier_distribution": {
+    "high": 86,
+    "moderate": 23,
+    "low": 5
+  },
+  "fn_count": 0,
+  "fn_mean_reliability": null,
+  "fn_low_reliability_count": 0,
+  "accuracy_by_tier": {
+    "High": 1.0,
+    "Moderate": 0.9565,
+    "Low": 0.8
+  }
+}

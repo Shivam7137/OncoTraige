@@ -1,0 +1,62 @@
+[
+  {
+    "config": "balanced",
+    "weight": "balanced",
+    "sensitivity": 0.9762,
+    "specificity": 0.9444,
+    "auc": 0.9967,
+    "brier": 0.0286,
+    "fn": 1,
+    "fp": 4,
+    "tp": 41,
+    "tn": 68
+  },
+  {
+    "config": "1:2",
+    "weight": "{0: 1, 1: 2}",
+    "sensitivity": 0.9762,
+    "specificity": 0.9583,
+    "auc": 0.9977,
+    "brier": 0.0272,
+    "fn": 1,
+    "fp": 3,
+    "tp": 41,
+    "tn": 69
+  },
+  {
+    "config": "1:3",
+    "weight": "{0: 1, 1: 3}",
+    "sensitivity": 1.0,
+    "specificity": 0.9722,
+    "auc": 0.999,
+    "brier": 0.0247,
+    "fn": 0,
+    "fp": 2,
+    "tp": 42,
+    "tn": 70
+  },
+  {
+    "config": "1:4",
+    "weight": "{0: 1, 1: 4}",
+    "sensitivity": 1.0,
+    "specificity": 0.9722,
+    "auc": 0.9997,
+    "brier": 0.0237,
+    "fn": 0,
+    "fp": 2,
+    "tp": 42,
+    "tn": 70
+  },
+  {
+    "config": "equal (1:1)",
+    "weight": "{0: 1, 1: 1}",
+    "sensitivity": 0.9524,
+    "specificity": 0.9306,
+    "auc": 0.9944,
+    "brier": 0.0312,
+    "fn": 2,
+    "fp": 5,
+    "tp": 40,
+    "tn": 67
+  }
+]

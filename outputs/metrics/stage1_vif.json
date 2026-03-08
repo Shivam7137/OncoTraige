@@ -1,0 +1,12 @@
+{
+  "label": "stage1_vif",
+  "threshold": 0.5,
+  "auc": 0.9931,
+  "brier": 0.0436,
+  "sensitivity": 0.8571,
+  "specificity": 0.9861,
+  "tp": 36,
+  "tn": 71,
+  "fp": 1,
+  "fn": 6
+}

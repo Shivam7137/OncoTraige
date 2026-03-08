@@ -1,0 +1,30 @@
+{
+  "label": "stage5_final",
+  "threshold": 0.25,
+  "auc": 0.9997,
+  "brier": 0.0237,
+  "sensitivity": 1.0,
+  "specificity": 0.9722,
+  "tp": 42,
+  "tn": 70,
+  "fp": 2,
+  "fn": 0,
+  "cv": {
+    "auc_mean": 0.9908,
+    "auc_std": 0.0048,
+    "sens_mean": 0.9412,
+    "sens_std": 0.0263,
+    "brier_mean": 0.0313,
+    "brier_std": 0.0056
+  },
+  "pipeline_steps": [
+    "Threshold = 0.25",
+    "Class weight = 1:4"
+  ],
+  "config": {
+    "features": null,
+    "threshold": 0.25,
+    "class_weight": "{0: 1, 1: 4}",
+    "winsorized": false
+  }
+}

@@ -1,0 +1,115 @@
+patient_idx,probability,reliability,tier,margin,spread,leaf,y_true,y_pred,recommendation
+0,0.0245,0.9226,High,0.9511,0.829,0.992,0,0,High reliability. Proceed with standard care plan.
+1,0.983,0.9218,High,0.966,0.7986,0.996,1,1,High reliability. Proceed with standard care plan.
+2,0.21,0.6815,Moderate,0.58,0.8371,0.702,0,0,"Moderate reliability. Review: texture_worst, area_se, concavity_mean. Consider re-measurement."
+3,0.8955,0.7905,Moderate,0.7909,0.79,0.79,1,1,"Moderate reliability. Review: concave_points_worst, concave_points_mean, area_worst. Consider re-measurement."
+4,0.0416,0.8965,High,0.9168,0.835,0.938,0,0,High reliability. Proceed with standard care plan.
+5,0.0429,0.8679,High,0.9141,0.7694,0.9,0,0,High reliability. Proceed with standard care plan.
+6,0.7867,0.6859,Moderate,0.5734,0.848,0.724,1,1,"Moderate reliability. Review: concave_points_worst, concavity_worst, radius_worst. Consider re-measurement."
+7,0.0523,0.8848,High,0.8953,0.8532,0.906,0,0,High reliability. Proceed with standard care plan.
+8,0.024,0.9213,High,0.9521,0.819,0.998,0,0,High reliability. Proceed with standard care plan.
+9,0.0236,0.9112,High,0.9528,0.7827,1.0,0,0,High reliability. Proceed with standard care plan.
+10,0.981,0.9154,High,0.9621,0.7905,0.986,1,1,High reliability. Proceed with standard care plan.
+11,0.0277,0.9092,High,0.9446,0.8082,0.972,0,0,High reliability. Proceed with standard care plan.
+12,0.9833,0.9205,High,0.9667,0.7906,1.0,1,1,High reliability. Proceed with standard care plan.
+13,0.0236,0.9018,High,0.9528,0.754,0.996,0,0,High reliability. Proceed with standard care plan.
+14,0.0257,0.9065,High,0.9486,0.7846,0.984,0,0,High reliability. Proceed with standard care plan.
+15,0.026,0.9091,High,0.9481,0.7929,0.986,0,0,High reliability. Proceed with standard care plan.
+16,0.2379,0.6544,Moderate,0.5242,0.849,0.688,1,0,"Moderate reliability. Review: texture_worst, concavity_mean, texture_mean. Consider re-measurement."
+17,0.0235,0.9279,High,0.9531,0.8392,0.998,0,0,High reliability. Proceed with standard care plan.
+18,0.0904,0.8046,High,0.8191,0.7621,0.832,0,0,High reliability. Proceed with standard care plan.
+19,0.0246,0.9231,High,0.9509,0.8321,0.99,0,0,High reliability. Proceed with standard care plan.
+20,0.024,0.9237,High,0.952,0.8297,0.994,0,0,High reliability. Proceed with standard care plan.
+21,0.0248,0.8984,High,0.9505,0.7544,0.984,0,0,High reliability. Proceed with standard care plan.
+22,0.9833,0.9153,High,0.9667,0.7733,1.0,1,1,High reliability. Proceed with standard care plan.
+23,0.9821,0.9167,High,0.9643,0.7885,0.99,1,1,High reliability. Proceed with standard care plan.
+24,0.6164,0.4702,Low,0.2329,0.8378,0.512,1,1,Prediction near decision boundary. Escalate to Core Needle Biopsy (CNB).
+25,0.0232,0.9142,High,0.9537,0.791,1.0,0,0,High reliability. Proceed with standard care plan.
+26,0.0236,0.9137,High,0.9528,0.7937,0.996,0,0,High reliability. Proceed with standard care plan.
+27,0.7448,0.614,Moderate,0.4895,0.8266,0.606,1,1,"Moderate reliability. Review: concave_points_mean, area_worst, radius_worst. Consider re-measurement."
+28,0.9707,0.905,High,0.9414,0.8104,0.956,1,1,High reliability. Proceed with standard care plan.
+29,0.9801,0.9294,High,0.9602,0.8442,0.98,1,1,High reliability. Proceed with standard care plan.
+30,0.983,0.9233,High,0.9659,0.8026,0.998,1,1,High reliability. Proceed with standard care plan.
+31,0.027,0.9184,High,0.9459,0.8275,0.986,0,0,High reliability. Proceed with standard care plan.
+32,0.9833,0.9212,High,0.9667,0.793,1.0,1,1,High reliability. Proceed with standard care plan.
+33,0.9816,0.9246,High,0.9632,0.8193,0.986,1,1,High reliability. Proceed with standard care plan.
+34,0.0268,0.9192,High,0.9465,0.8305,0.984,0,0,High reliability. Proceed with standard care plan.
+35,0.0435,0.8812,High,0.9129,0.8063,0.914,0,0,High reliability. Proceed with standard care plan.
+36,0.0232,0.9179,High,0.9536,0.8035,1.0,0,0,High reliability. Proceed with standard care plan.
+37,0.0235,0.9205,High,0.9531,0.8144,0.998,0,0,High reliability. Proceed with standard care plan.
+38,0.9383,0.8442,High,0.8767,0.7876,0.848,1,1,High reliability. Proceed with standard care plan.
+39,0.1132,0.7962,Moderate,0.7736,0.8033,0.842,0,0,"Moderate reliability. Review: concave_points_mean, texture_worst, texture_mean. Consider re-measurement."
+40,0.0953,0.8094,High,0.8093,0.797,0.828,0,0,High reliability. Proceed with standard care plan.
+41,0.0236,0.9003,High,0.9527,0.7464,1.0,0,0,High reliability. Proceed with standard care plan.
+42,0.3756,0.4866,Low,0.2488,0.7942,0.62,1,1,Prediction near decision boundary. Escalate to Core Needle Biopsy (CNB).
+43,0.0235,0.9169,High,0.953,0.8028,0.998,0,0,High reliability. Proceed with standard care plan.
+44,0.0487,0.8617,High,0.9026,0.776,0.888,0,0,High reliability. Proceed with standard care plan.
+45,0.9573,0.8658,High,0.9145,0.7805,0.872,1,1,High reliability. Proceed with standard care plan.
+46,0.0423,0.8813,High,0.9154,0.8078,0.906,0,0,High reliability. Proceed with standard care plan.
+47,0.9497,0.8556,High,0.8993,0.7879,0.848,1,1,High reliability. Proceed with standard care plan.
+48,0.0238,0.9182,High,0.9524,0.8094,0.996,0,0,High reliability. Proceed with standard care plan.
+49,0.0238,0.9208,High,0.9524,0.8167,0.998,0,0,High reliability. Proceed with standard care plan.
+50,0.9809,0.9238,High,0.9618,0.8258,0.976,1,1,High reliability. Proceed with standard care plan.
+51,0.9791,0.9197,High,0.9583,0.8218,0.97,1,1,High reliability. Proceed with standard care plan.
+52,0.0263,0.9235,High,0.9475,0.842,0.986,0,0,High reliability. Proceed with standard care plan.
+53,0.0233,0.9169,High,0.9534,0.8021,0.998,0,0,High reliability. Proceed with standard care plan.
+54,0.0246,0.9127,High,0.9509,0.8029,0.982,0,0,High reliability. Proceed with standard care plan.
+55,0.7909,0.66,Moderate,0.5818,0.7943,0.654,1,1,"Moderate reliability. Review: concavity_worst, concave_points_worst, area_worst. Consider re-measurement."
+56,0.0324,0.9007,High,0.9353,0.8142,0.944,0,0,High reliability. Proceed with standard care plan.
+57,0.027,0.9079,High,0.946,0.7938,0.984,0,0,High reliability. Proceed with standard care plan.
+58,0.0248,0.9215,High,0.9504,0.8318,0.984,0,0,High reliability. Proceed with standard care plan.
+59,0.9833,0.9252,High,0.9666,0.8063,1.0,1,1,High reliability. Proceed with standard care plan.
+60,0.0282,0.9147,High,0.9436,0.8175,0.988,0,0,High reliability. Proceed with standard care plan.
+61,0.0358,0.8875,High,0.9283,0.7645,0.97,0,0,High reliability. Proceed with standard care plan.
+62,0.8842,0.7844,Moderate,0.7685,0.8085,0.788,1,1,"Moderate reliability. Review: area_worst, concave_points_worst, concave_points_mean. Consider re-measurement."
+63,0.0234,0.9315,High,0.9532,0.8525,0.996,0,0,High reliability. Proceed with standard care plan.
+64,0.0597,0.8638,High,0.8807,0.8075,0.906,0,0,High reliability. Proceed with standard care plan.
+65,0.0232,0.9155,High,0.9536,0.7955,1.0,0,0,High reliability. Proceed with standard care plan.
+66,0.956,0.8844,High,0.9119,0.8388,0.884,1,1,High reliability. Proceed with standard care plan.
+67,0.983,0.9195,High,0.966,0.7909,0.996,1,1,High reliability. Proceed with standard care plan.
+68,0.0291,0.9047,High,0.9417,0.7996,0.97,0,0,High reliability. Proceed with standard care plan.
+69,0.8885,0.8006,High,0.777,0.8471,0.79,1,1,High reliability. Proceed with standard care plan.
+70,0.0235,0.9289,High,0.953,0.8452,0.994,0,0,High reliability. Proceed with standard care plan.
+71,0.9831,0.9156,High,0.9663,0.775,1.0,1,1,High reliability. Proceed with standard care plan.
+72,0.929,0.8394,High,0.8579,0.8054,0.844,1,1,High reliability. Proceed with standard care plan.
+73,0.0234,0.921,High,0.9533,0.8144,1.0,0,0,High reliability. Proceed with standard care plan.
+74,0.0235,0.9242,High,0.953,0.8271,0.998,0,0,High reliability. Proceed with standard care plan.
+75,0.1155,0.7967,Moderate,0.7691,0.847,0.79,0,0,"Moderate reliability. Review: perimeter_worst, area_worst, concavity_worst. Consider re-measurement."
+76,0.0248,0.9202,High,0.9504,0.8232,0.99,0,0,High reliability. Proceed with standard care plan.
+77,0.9832,0.914,High,0.9665,0.7731,0.994,1,1,High reliability. Proceed with standard care plan.
+78,0.0245,0.9042,High,0.951,0.7663,0.994,0,0,High reliability. Proceed with standard care plan.
+79,0.9282,0.8313,High,0.8564,0.837,0.76,1,1,High reliability. Proceed with standard care plan.
+80,0.9821,0.9052,High,0.9642,0.7464,0.996,1,1,High reliability. Proceed with standard care plan.
+81,0.9831,0.9175,High,0.9662,0.7813,1.0,1,1,High reliability. Proceed with standard care plan.
+82,0.0234,0.9158,High,0.9532,0.7987,0.998,0,0,High reliability. Proceed with standard care plan.
+83,0.0233,0.9167,High,0.9534,0.7999,1.0,0,0,High reliability. Proceed with standard care plan.
+84,0.0232,0.931,High,0.9537,0.8473,1.0,0,0,High reliability. Proceed with standard care plan.
+85,0.0375,0.8792,High,0.925,0.7652,0.936,0,0,High reliability. Proceed with standard care plan.
+86,0.9817,0.9157,High,0.9635,0.7906,0.984,1,1,High reliability. Proceed with standard care plan.
+87,0.9195,0.8332,High,0.8391,0.8428,0.804,1,1,High reliability. Proceed with standard care plan.
+88,0.9833,0.9119,High,0.9667,0.7618,1.0,1,1,High reliability. Proceed with standard care plan.
+89,0.0235,0.9145,High,0.953,0.7959,0.996,0,0,High reliability. Proceed with standard care plan.
+90,0.9833,0.9223,High,0.9665,0.7967,1.0,1,1,High reliability. Proceed with standard care plan.
+91,0.0238,0.9122,High,0.9523,0.7867,1.0,0,0,High reliability. Proceed with standard care plan.
+92,0.38,0.4569,Low,0.24,0.7084,0.622,0,1,Prediction near decision boundary. Escalate to Core Needle Biopsy (CNB).
+93,0.0242,0.9244,High,0.9516,0.8299,0.998,0,0,High reliability. Proceed with standard care plan.
+94,0.0475,0.8512,High,0.905,0.7503,0.868,0,0,High reliability. Proceed with standard care plan.
+95,0.0259,0.9002,High,0.9482,0.755,0.998,0,0,High reliability. Proceed with standard care plan.
+96,0.0717,0.8386,High,0.8566,0.7932,0.862,0,0,High reliability. Proceed with standard care plan.
+97,0.915,0.7842,Moderate,0.8301,0.7267,0.756,1,1,"Moderate reliability. Review: concave_points_worst, area_worst, concave_points_mean. Consider re-measurement."
+98,0.0239,0.9212,High,0.9521,0.8184,0.998,0,0,High reliability. Proceed with standard care plan.
+99,0.0253,0.9295,High,0.9494,0.8574,0.988,0,0,High reliability. Proceed with standard care plan.
+100,0.0235,0.9185,High,0.9529,0.8093,0.996,0,0,High reliability. Proceed with standard care plan.
+101,0.0235,0.9247,High,0.953,0.8274,1.0,0,0,High reliability. Proceed with standard care plan.
+102,0.093,0.8086,High,0.814,0.7853,0.83,0,0,High reliability. Proceed with standard care plan.
+103,0.0261,0.8914,High,0.9477,0.7344,0.986,0,0,High reliability. Proceed with standard care plan.
+104,0.0232,0.9207,High,0.9537,0.8127,1.0,0,0,High reliability. Proceed with standard care plan.
+105,0.0262,0.9116,High,0.9476,0.7993,0.99,0,0,High reliability. Proceed with standard care plan.
+106,0.9833,0.9127,High,0.9667,0.7644,1.0,1,1,High reliability. Proceed with standard care plan.
+107,0.0467,0.874,High,0.9067,0.7903,0.918,0,0,High reliability. Proceed with standard care plan.
+108,0.9826,0.9243,High,0.9652,0.8082,0.996,1,1,High reliability. Proceed with standard care plan.
+109,0.0232,0.9252,High,0.9537,0.828,1.0,0,0,High reliability. Proceed with standard care plan.
+110,0.0249,0.9137,High,0.9502,0.8032,0.988,0,0,High reliability. Proceed with standard care plan.
+111,0.0829,0.8277,High,0.8342,0.7792,0.884,0,0,High reliability. Proceed with standard care plan.
+112,0.5752,0.4248,Low,0.1505,0.7905,0.562,1,1,Prediction near decision boundary. Escalate to Core Needle Biopsy (CNB).
+113,0.9817,0.9209,High,0.9634,0.8054,0.988,1,1,High reliability. Proceed with standard care plan.

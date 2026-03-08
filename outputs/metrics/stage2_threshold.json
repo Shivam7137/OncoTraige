@@ -1,0 +1,12 @@
+{
+  "label": "stage2_threshold",
+  "threshold": 0.25,
+  "auc": 0.9967,
+  "brier": 0.0286,
+  "sensitivity": 0.9762,
+  "specificity": 0.9444,
+  "tp": 41,
+  "tn": 68,
+  "fp": 4,
+  "fn": 1
+}

@@ -1,0 +1,12 @@
+{
+  "label": "stage4_winsorize",
+  "threshold": 0.25,
+  "auc": 0.9997,
+  "brier": 0.0234,
+  "sensitivity": 1.0,
+  "specificity": 0.9722,
+  "tp": 42,
+  "tn": 70,
+  "fp": 2,
+  "fn": 0
+}

@@ -1,0 +1,14 @@
+{
+  "auc": 0.9993,
+  "brier": 0.0161,
+  "sensitivity": 0.9762,
+  "specificity": 0.9861,
+  "threshold": 0.25,
+  "tp": 41,
+  "tn": 71,
+  "fp": 1,
+  "fn": 1,
+  "cv_auc_mean": 0.9908,
+  "cv_sens_mean": 0.9412,
+  "cv_brier_mean": 0.0313
+}

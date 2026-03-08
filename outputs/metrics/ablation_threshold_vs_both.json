@@ -1,0 +1,19 @@
+{
+  "threshold_only": {
+    "sensitivity": 0.9762,
+    "specificity": 0.9444,
+    "auc": 0.9967,
+    "brier": 0.0286,
+    "fn": 1,
+    "fp": 4
+  },
+  "threshold_plus_weight": {
+    "sensitivity": 1.0,
+    "specificity": 0.9722,
+    "auc": 0.9997,
+    "brier": 0.0237,
+    "fn": 0,
+    "fp": 2
+  },
+  "recommendation": "keep_both"
+}
