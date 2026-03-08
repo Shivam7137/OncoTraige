@@ -232,16 +232,17 @@ layout_col1, layout_col2, layout_col3 = st.columns(3, gap="large")
 
 with layout_col3:
     shap_placeholder = st.empty()
-    st.markdown('<div class="bento-card" style="margin-bottom: 24px;"><div class="bento-header">Decision Threshold</div><div class="bento-body" style="padding:16px 24px 20px 24px;">', unsafe_allow_html=True)
-    threshold = st.slider(
-        'Decision Threshold',
-        min_value = 0.10,
-        max_value = 0.60,
-        value     = 0.25,
-        step      = 0.05,
-        label_visibility="collapsed"
-    )
-    st.markdown('</div></div>', unsafe_allow_html=True)
+    
+    with st.container(border=True):
+        st.markdown('<div class="bento-header" style="margin-bottom: 8px; border-bottom: none; padding-bottom: 0;">Decision Threshold</div>', unsafe_allow_html=True)
+        threshold = st.slider(
+            'Decision Threshold',
+            min_value = 0.10,
+            max_value = 0.60,
+            value     = 0.25,
+            step      = 0.05,
+            label_visibility="collapsed"
+        )
     stat_placeholder = st.empty()
 
 # Rethreshold full test set
